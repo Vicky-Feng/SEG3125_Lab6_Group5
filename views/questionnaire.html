@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-md p-3 my-3 border bg-info text-white" id="survey">
+<h1>Survey</h1>
+<h3>Here is the UI from <a href="https://www.w3schools.com/">w3schools</a>. How do you like it?</h3>
+
+<div id="pic">
+    <a href="https://www.w3schools.com/">
+        <img src="../images/w3schools.jpg"  style="width:700px;height:420px;">
+    </a>
+</div>
+<form>
+    <h2>Name: </h2>
+    <input type="text" name="name" placeholder="Name" required />
+    <br>
+    <br>
+
+    <h2>Age: </h2>
+    <input type="text" name="age" placeholder="age" required />
+    <br>
+    <br>
+
+    <h2>Gender</h2>
+    Female<input type = "radio" name = "gender" value = "female">
+    Male<input type = "radio" name = "gender"value = "male">
+    Other<input type = "radio" name = "gender"value = "other">
+    <br>
+    <br>
+
+    <h2>Favourite Progamming Langauage:</h2>
+    <select name="fpl">
+        <option value="Java" selected="selected">Java</option>
+        <option value="Python">Python</option>
+        <option value="HTML">HTML</option>
+        <option value="C++">C++</option>
+    </select>
+    <br>
+    <br>
+
+    <h2>I know how to program in</h2>
+    Java<input type = "checkbox" name = "ik" value = "Java"/>
+    Python<input type = "checkbox" name = "ik" value = "Python"/>
+    C++<input type = "checkbox" name = "ik" value = "C++"/>
+    HTML<input type = "checkbox" name = "ik" value = "HTML"/>
+    <br>
+    <br>
+
+    <h2>Comment:</h2>
+    <textarea rows="4" cols="50" name="comment"  class="tarea" placeholder="Enter text here..."></textarea>
+    <br>
+    <br>
+    <button type="submit" class="btn btn-warning" id="bb">Submit</button>
+    <p id="thanks"></p>
+</form>
+</div>
+<p id="signature" style="text-align: right; color:purple;">Site create by by Gary Gao, Yingqi Feng, Kaixi Xu</p>
+<script src="/assets/action.js"></script>
+
+
+</body>
+</html>
