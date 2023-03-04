@@ -17,7 +17,7 @@ function writeData(info, fileName){
     fs.writeFileSync('./data/' + fileName + '.json', data);
 }
 
-// update the data file, I use "name" to be equal to fruit, or animal or color
+
 // to match with the file names
 // I assume we always just add 1 to a single item
 function combineCounts(name, value){
@@ -68,7 +68,11 @@ module.exports = function(app){
         for (var key in json){
             console.log(key + ": " + json[key]);
             // in the case of checkboxes, the user might check more than one
-            if ((key === "ik") && (json[key].length === 2)){
+            if ((key === "ik") && (json[key].length === 3)){
+                for (var item in json[key]){
+                    combineCounts(key, json[key][item]);
+                }
+            } else if ((key === "ik") && (json[key].length === 2)){
                 for (var item in json[key]){
                     combineCounts(key, json[key][item]);
                 }
