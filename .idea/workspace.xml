@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65abd3e5-efc8-41f7-afe3-b02ac3e95c7e" name="Changes" comment="" />
+    <list default="true" id="65abd3e5-efc8-41f7-afe3-b02ac3e95c7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/w3schools.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/age.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/age.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/comment.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/comment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fpl.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/fpl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/gender.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/gender.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ik.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/ik.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/name.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/name.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/questionnaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/questionnaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/resultsView.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/resultsView.ejs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +30,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,6 +75,7 @@
       <workItem from="1677530354326" duration="618000" />
       <workItem from="1677530988531" duration="6493000" />
       <workItem from="1677873476316" duration="414000" />
+      <workItem from="1677903011811" duration="49000" />
     </task>
     <servers />
   </component>
